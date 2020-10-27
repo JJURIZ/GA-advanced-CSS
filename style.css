@@ -1,0 +1,46 @@
+.container {
+    background-color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 300px;
+    width: 300px;
+
+}
+
+.container:hover {
+    cursor: pointer;
+    background-color: teal;
+}
+
+.new_container {
+    background-color: orangered;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+    height: 300px;
+    width: 300px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        background-color: orangered;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    .new_container {
+        background-color: whitesmoke;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1rem;
+        font-size: 14px;
+    }
+    .second {
+        padding-top: 1rem;
+        font-style: italic;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1500px) {
+    .container {
+        height: 250px;
+        width: 250px;
+        background-color: yellowgreen;
+    }
+}
